@@ -1,0 +1,152 @@
+/*teg*/
+a:hover{
+    text-decoration: none !important;
+    color: #000000;
+}
+/*header*/
+.font{
+    font-family: 'Cormorant Garamond', serif;
+}
+.header--soc-icon__img{
+    float: left;
+    margin-top: 5px;
+}
+.logo{
+    display: block;
+    width: auto;
+    margin: 5px auto 10px;
+    max-width: 100%;
+}
+.logo img{
+    display: block;
+    width: auto;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+.soc-icon--vk-inst{
+    width: 43px;
+    height: 43px;
+    margin: 10px 0 10px 10px;
+}
+.soc-icon--vk-inst:hover{
+    width: 45px;
+    height: 45px;
+}
+.soc-icon--text{
+    font-size: 21px;
+    color: #000000;
+    font-weight: bold;
+}
+.logo--text1{
+    font-size: 37px;
+}
+.logo--text2{
+    font-size: 23px;
+    margin-top: -18px;
+}
+.logo--text3{
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin: -7px 0 0 -19px;
+}
+.header--enum{
+    font-size: 20px;
+    margin-top: 25px;
+    float: right;
+}
+
+/*body*/
+.body__main_text{
+    font-size: 21px;
+}
+.body__header-text{
+    font-size: 23px;
+    font-weight: bold;
+}
+.jumbotron{
+    margin: 1rem;
+    padding: 1rem 2rem !important;
+}
+.body__btn-event{
+    width: 130px;
+    margin: 0 auto;
+    display: block;
+    background: #ffb28b;
+    font-size: 23px;
+    font-weight: bold;
+}
+.body__btn-menu{
+    width: 130px;
+    margin: 0 auto;
+    display: block;
+    background: #8aceff;
+    font-size: 23px;
+    font-weight: bold;
+}
+footer.container.pb-5.font{
+    padding-bottom: 0 !important;
+}
+/*event*/
+.table{
+    overflow-x: auto;
+    max-width: 100%;
+}
+.th_peach{
+    background: #ffb28b;
+    font-size: 25px;
+}
+.th_blue{
+    background: #8aceff;
+    font-size: 25px;
+}
+.img{
+    max-width: 100%;
+}
+.table__number{
+    font-weight: bold;
+    font-size: 19px;
+    position: absolute;
+    top: 0;
+    left: 12px;
+}
+.table td{
+    width: 14% !important;
+    vertical-align: bottom;
+    position: relative;
+    padding-top: 30px;
+}
+/*menu*/
+.card-header{
+    background-color: #f5bb98;
+}
+.card-header1{
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #86ceeb;
+}
+.button__text{
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+}
+.button__text_peach{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold !important;
+    background: #ffb28b !important;
+    font-size: 20px !important;
+}
+.button__text_blue{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold !important;
+    background: #8aceff !important;
+    font-size: 20px !important;
+}
+#menu button.btn-link{
+    text-decoration: none !important;
+    display: block;
+    margin: 0 auto;
+}
+.button__text{
+    font-size: 26px;
+    font-weight: 600;
+}
