@@ -1,0 +1,2153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Меню</title>
+    <script src="js/jq.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="img/icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+</head>
+<body>
+<header class="container">
+    <div class="row">
+        <div class="col-4 header--soc-icon">
+            <img class="header--soc-icon__img" src="img/about/head.jpg" alt="image">
+            <div class="soc-icon">
+                <a href="https://www.instagram.com/ddrugu/" target="_blank">
+                    <img src="img/about/log_inst.jpg" class="soc-icon--vk-inst" alt="inst">
+                </a>
+                <a href="https://www.instagram.com/ddrugu/" class="soc-icon--text font">@ddrugu</a>
+                <a href="https://vk.com/drugdrugu33">
+                    <img src="img/about/log_vk.jpg" class="soc-icon--vk-inst" alt="vk">
+                </a>
+                <a href="https://vk.com/drugdrugu33" class="soc-icon--text font">drugdrugu33</a>
+            </div>
+        </div>
+        <div class="col-4">
+            <a href="index.html" class="logo"><img src="img/about/logo.jpg" alt="logo"></a>
+            <h5 class="logo--text1 font text-center">семейная кофейня</h5>
+            <p class="logo--text2 font text-center">вкусно, уютно, со смыслом</p>
+            <p class="logo--text3 font text-center">г. Владимир ул. Б.Московская, 12</p>
+        </div>
+        <div class="col-4">
+            <ul class="header--enum font">
+                <li>авторские торты и десерты</li>
+                <li>самые вкусные блинчики</li>
+                <li>полноценные <br> завтраки, обеды, ужины</li>
+                <li>события для всей семьи</li>
+                <li>эксклюзивные подарки</li>
+                <li>творческие мастер-классы</li>
+            </ul>
+        </div>
+    </div>
+</header>
+<main class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="text-center display-4 font">Меню</h1>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="accordion" id="menu">
+                <div class="card">
+                    <div class="card-header" id="breakfast">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#breakfast1" aria-expanded="false" aria-controls="breakfast1">
+                                <span class="button__text text_btn">Завтраки</span>
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="breakfast1" class="collapse" aria-labelledby="breakfast" data-parent="#menu">
+                        <div class="card-body" align="center">
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#smuzi_fruct_yagodn" role="button" aria-expanded="false" aria-controls="breakfast1">
+                                    Смузи-боул фруктово-ягодный
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#smuzi_ov" role="button" aria-expanded="false" aria-controls="breakfast1">
+                                    Смузи-боул овощной
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#boul_ovs_classic" role="button" aria-expanded="false" aria-controls="breakfast1">
+                                    Боул овсяный классический
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#boul_ovs_with_nut" role="button" aria-expanded="false" aria-controls="breakfast1">
+                                    Боул овсяный с орехами и ягодами
+                                </a>
+                            </p>
+                            <div class="collapse" id="smuzi_fruct_yagodn">
+                                <div class="card card-body">
+                                    250/50гр...................................250р
+                                </div>
+                            </div>
+                            <div class="collapse" id="smuzi_ov">
+                                <div class="card card-body">
+                                    250/50гр (брокколи, цветная капуста, шпинат, орехи, кунжут)...................................250р
+                                </div>
+                            </div>
+                            <div class="collapse" id="boul_ovs_classic">
+                                <div class="card card-body">
+                                    250/50гр...................................80р
+                                </div>
+                            </div>
+                            <div class="collapse" id="boul_ovs_with_nut">
+                                <div class="card card-body">
+                                    250/30гр...................................140р
+                                </div>
+                            </div>
+                            <p>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#glaz_with_tomato_and_becon" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Глазунья с томатами и беконом
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#omlet_with_tomato" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Омлет с томатами и сыром
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#sirniki_so_smetanoi" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Сырники "Домашние" со сметаной
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#hashbraun" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    ХашБраун
+                                </a>
+                            </p>
+                            <div class="collapse" id="glaz_with_tomato_and_becon">
+                                <div class="card card-body">
+                                    250/50гр...................................170р
+                                </div>
+                            </div>
+                            <div class="collapse" id="omlet_with_tomato">
+                                <div class="card card-body">
+                                    250/5гр добавки на выбор(30г): ветчина - 20р., курица - 30р., грибы - 30р....................................170р
+                                </div>
+                            </div>
+                            <div class="collapse" id="sirniki_so_smetanoi">
+                                <div class="card card-body">
+                                    добавки на выбор(40г): сгущёнка - 30р., джем - 20р., взбитые сливки - 30р., мёд - 30р., шоколад - 50р....................................160р
+                                </div>
+                            </div>
+                            <div class="collapse" id="hashbraun">
+                                <div class="card card-body">
+                                    130/70/25гр...................................180р
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header1" id="blin">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#blin1" aria-expanded="false" aria-controls="blin1">
+                                <span class="button__text text_btn9">Блины</span>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="blin1" class="collapse" aria-labelledby="blin" data-parent="#menu">
+                        <div class="card-body" align="center">
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#blin_sladkie" role="button" aria-expanded="false" aria-controls="blin1">
+                                    Блины сладкие
+                                </a>
+                            </p>
+                            <div class="collapse" id="blin_sladkie">
+                                <div class="card card-body">
+                                    <p>
+                                        <a class="btn button__text_peach" data-toggle="collapse" href="#djem" role="button" aria-expanded="false" aria-controls="blin1">
+                                            с джемом
+                                        </a>
+                                        <a class="btn button__text_blue" data-toggle="collapse" href="#honey" role="button" aria-expanded="false" aria-controls="blin1">
+                                            с мёдом
+                                        </a>
+                                        <a class="btn button__text_peach" data-toggle="collapse" href="#chocolate" role="button" aria-expanded="false" aria-controls="blin1">
+                                            с шоколадом
+                                        </a>
+                                    </p>
+                                    <div class="collapse" id="djem">
+                                        <div class="card card-body">
+                                            150/30гр...................................95р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="honey">
+                                        <div class="card card-body">
+                                            150/30гр...................................110р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="chocolate">
+                                        <div class="card card-body">
+                                            150/40гр...................................140р
+                                        </div>
+                                    </div>
+                                    <p>
+                                        <a class="btn button__text_blue" data-toggle="collapse" href="#ice_cream" role="button" aria-expanded="false" aria-controls="blin1">
+                                            с мороженым
+                                        </a>
+                                        <a class="btn button__text_peach" data-toggle="collapse" href="#condenced_milk" role="button" aria-expanded="false" aria-controls="blin1">
+                                            со сгущёнкой
+                                        </a>
+                                        <a class="btn button__text_blue" data-toggle="collapse" href="#tvorog_and_smetana" role="button" aria-expanded="false" aria-controls="blin1">
+                                            с домашним творогом и сметаной
+                                        </a>
+                                    </p>
+                                    <div class="collapse" id="ice_cream">
+                                        <div class="card card-body">
+                                            150/50гр...................................130р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="condenced_milk">
+                                        <div class="card card-body">
+                                            150/30гр...................................95р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="tvorog_and_smetana">
+                                        <div class="card card-body">
+                                            150/60/30гр...................................150р
+                                        </div>
+                                    </div>
+                                    <p>
+                                        <a class="btn button__text_peach" data-toggle="collapse" href="#blin_ot_shefa" role="button" aria-expanded="false" aria-controls="blin1">
+                                            блины от шефа
+                                        </a>
+                                        <a class="btn button__text_blue" data-toggle="collapse" href="#blin_frantc" role="button" aria-expanded="false" aria-controls="blin1">
+                                            блинчики французские
+                                        </a>
+                                        <a class="btn button__text_peach" data-toggle="collapse" href="#blin_with_tvorog_and_banana" role="button" aria-expanded="false" aria-controls="blin1">
+                                            блинчики с творожно-банановым кремом
+                                        </a>
+                                    </p>
+                                    <div class="collapse" id="blin_ot_shefa">
+                                        <div class="card card-body">
+                                            150/60гр клюква, облепиха, сгущёнка...................................180р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="blin_frantc">
+                                        <div class="card card-body">
+                                            150/100/30гр апельсин, шоколад, сироп...................................180р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="blin_with_tvorog_and_banana">
+                                        <div class="card card-body">
+                                            150/100/30гр...................................180р
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#blin_sitnie" role="button" aria-expanded="false" aria-controls="blin1">
+                                    Блины сытные
+                                </a>
+                            </p>
+                            <div class="collapse" id="blin_sitnie">
+                                <div class="card card-body">
+                                    <p>
+                                        <a class="btn button__text_peach" data-toggle="collapse" href="#blin_chiken" role="button" aria-expanded="false" aria-controls="blin1">
+                                            блинчики с курицей и грибами под соусом "Бешамель"
+                                        </a>
+                                        <a class="btn button__text_blue" data-toggle="collapse" href="#blin_meat" role="button" aria-expanded="false" aria-controls="blin1">
+                                            блинчики с мясом и сметаной
+                                        </a>
+                                        <a class="btn button__text_peach" data-toggle="collapse" href="#blin_fila" role="button" aria-expanded="false" aria-controls="blin1">
+                                            блинчики "Филадельфия" 2шт.
+                                        </a>
+                                    </p>
+                                    <div class="collapse" id="blin_chiken">
+                                        <div class="card card-body">
+                                            300гр...................................180р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="blin_meat">
+                                        <div class="card card-body">
+                                            250/30гр...................................180р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="blin_fila">
+                                        <div class="card card-body">
+                                            210/5гр соус "Цезарь", сыр сливочный, сёмга с/с, огурец свежий...................................220р
+                                        </div>
+                                    </div>
+                                    <p>
+                                        <a class="btn button__text_blue" data-toggle="collapse" href="#blin_with_red_icroi" role="button" aria-expanded="false" aria-controls="blin1">
+                                            блинчики с красной икрой 2шт.
+                                        </a>
+                                        <a class="btn button__text_peach" data-toggle="collapse" href="#blin_with_somga" role="button" aria-expanded="false" aria-controls="blin1">
+                                            блины с сёмгой
+                                        </a>
+                                        <a class="btn button__text_blue" data-toggle="collapse" href="#blin_with_vetchina_and_cheese" role="button" aria-expanded="false" aria-controls="blin1">
+                                            блины с ветчиной и сыром
+                                        </a>
+                                    </p>
+                                    <div class="collapse" id="blin_with_red_icroi">
+                                        <div class="card card-body">
+                                            100/20/25/5гр...................................240р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="blin_with_somga">
+                                        <div class="card card-body">
+                                            150/30/30/5гр...................................210р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="blin_with_vetchina_and_cheese">
+                                        <div class="card card-body">
+                                            150/30/30/30гр "итальянские креппе"...................................140р
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="sandwiches">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#sandwiches1" aria-expanded="false" aria-controls="sandwiches1">
+                                <span class="button__text text_btn">Сэндвичи</span>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="sandwiches1" class="collapse" aria-labelledby="sandwiches1" data-parent="#menu">
+                        <div class="card-body" align="center">
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#sendwich_with_chiken" role="button" aria-expanded="false" aria-controls="sandwiches1">
+                                    Сэндвич с курицей
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#sendwich_with_semga" role="button" aria-expanded="false" aria-controls="sandwiches1">
+                                    сэндвич с сёмгой
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#sendwich_with_vetchina" role="button" aria-expanded="false" aria-controls="sandwiches1">
+                                    Сэндвич с ветчиной, беконом, жареным яйцом
+                                </a>
+                            </p>
+                            <div class="collapse" id="sendwich_with_chiken">
+                                <div class="card card-body">
+                                    190гр...................................160р
+                                </div>
+                            </div>
+                            <div class="collapse" id="sendwich_with_semga">
+                                <div class="card card-body">
+                                    170гр апельсин, шоколад, сироп...................................210р
+                                </div>
+                            </div>
+                            <div class="collapse" id="sendwich_with_vetchina">
+                                <div class="card card-body">
+                                    230гр...................................190р
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header1" id="julienne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#julienne1" aria-expanded="false" aria-controls="julienne1">
+                                <span class="button__text text_btn2">Жульен</span>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="julienne1" class="collapse" aria-labelledby="julienne1" data-parent="#menu">
+                        <div class="card-body" align="center">
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#julen_with_chiken" role="button" aria-expanded="false" aria-controls="julienne1">
+                                    Жульен с курицей и грибами
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#julen_with_moreproductami" role="button" aria-expanded="false" aria-controls="julienne1">
+                                    Жульен с морепродуктами
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#julen_with_somgoy" role="button" aria-expanded="false" aria-controls="julienne1">
+                                    Жульен с сёмгой и брокколи
+                                </a>
+                            </p>
+                            <div class="collapse" id="julen_with_chiken">
+                                <div class="card card-body">
+                                    150гр...................................160р
+                                </div>
+                            </div>
+                            <div class="collapse" id="julen_with_moreproductami">
+                                <div class="card card-body">
+                                    150гр...................................210р
+                                </div>
+                            </div>
+                            <div class="collapse" id="julen_with_somgoy">
+                                <div class="card card-body">
+                                    150гр...................................210р
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="cold_snacks">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#cold_snacks1" aria-expanded="false" aria-controls="cold_snacks1">
+                                <span class="button__text text_btn3">Холодные закуски</span>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="cold_snacks1" class="collapse" aria-labelledby="headingThree" data-parent="#menu">
+                        <div class="card-body" align="center">
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#slab_sol_somga" role="button" aria-expanded="false" aria-controls="cold_snacks1">
+                                    С/солёная сёмга
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#skumbria_sobst_posola" role="button" aria-expanded="false" aria-controls="cold_snacks1">
+                                    Скумбрия собственного посола
+                                </a>
+                            </p>
+                            <div class="collapse" id="slab_sol_somga">
+                                <div class="card card-body">
+                                    50/15/10/15/5гр (лимон, маслины, масло сливочное, зелень)...................................190р
+                                </div>
+                            </div>
+                            <div class="collapse" id="skumbria_sobst_posola">
+                                <div class="card card-body">
+                                    170/50/30/20гр (фирменная с дольками картофеля и солёным огурчиком)...................................170р
+                                </div>
+                            </div>
+                            <p>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#boul_ovoshnoi" role="button" aria-expanded="false" aria-controls="cold_snacks1">
+                                    Боул овощной
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#boul_palermo" role="button" aria-expanded="false" aria-controls="cold_snacks1">
+                                    Боул "Палермо"
+                                </a>
+                            </p>
+                            <div class="collapse" id="boul_ovoshnoi">
+                                <div class="card card-body">
+                                    200гр (помидоры, огурец, редис, болгарский перец, зелень)...................................160р
+                                </div>
+                            </div>
+                            <div class="collapse" id="boul_palermo">
+                                <div class="card card-body">
+                                    150/50гр (овощи на гриле, соус "Палермо", сыр моцарелла)...................................170р
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header1" id="salads">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#salads1" aria-expanded="false" aria-controls="salads">
+                                <span class="button__text text_btn2">Салаты</span>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="salads1" class="collapse" aria-labelledby="salads" data-parent="#menu">
+                        <div class="card-body" align="center">
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#cezar_with_chiken" role="button" aria-expanded="false" aria-controls="salads1">
+                                    Цезарь с курицей
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#cezar_with_krevetki" role="button" aria-expanded="false" aria-controls="salads1">
+                                    Цезарь с креветками
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#cezar_with_somga" role="button" aria-expanded="false" aria-controls="salads1">
+                                    Цезарь с сёмгой
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#salad_grecheski" role="button" aria-expanded="false" aria-controls="salads1">
+                                    Салат "Греческий"
+                                </a>
+                            </p>
+                            <div class="collapse" id="cezar_with_chiken">
+                                <div class="card card-body">
+                                    190гр...................................210р
+                                </div>
+                            </div>
+                            <div class="collapse" id="cezar_with_krevetki">
+                                <div class="card card-body">
+                                    190гр...................................250р
+                                </div>
+                            </div>
+                            <div class="collapse" id="cezar_with_somga">
+                                <div class="card card-body">
+                                    190гр...................................250р
+                                </div>
+                            </div>
+                            <div class="collapse" id="salad_grecheski">
+                                <div class="card card-body">
+                                    200гр...................................200р
+                                </div>
+                            </div>
+                            <p>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#neapolitanski" role="button" aria-expanded="false" aria-controls="salads1">
+                                    "Неаполитанский" с морепродуктами
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#salad_with_rukkola" role="button" aria-expanded="false" aria-controls="salads1">
+                                    Салат с рукколой и свеклой
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#salad_olivie" role="button" aria-expanded="false" aria-controls="salads1">
+                                    Салат оливье ("Князь Владимир")
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#salad_delo_vkusa" role="button" aria-expanded="false" aria-controls="salads1">
+                                    Салат "Дело вкуса"
+                                </a>
+                            </p>
+                            <div class="collapse" id="neapolitanski">
+                                <div class="card card-body">
+                                    190гр салатный микс, морепродукты, бальзам.заправка, горчица, зелень...................................245р
+                                </div>
+                            </div>
+                            <div class="collapse" id="salad_with_rukkola">
+                                <div class="card card-body">
+                                    190гр фетакса, кедровые орехи, черри, перец болгарский, бальзамическая заправка...................................220р
+                                </div>
+                            </div>
+                            <div class="collapse" id="salad_olivie">
+                                <div class="card card-body">
+                                    200гр...................................230р
+                                </div>
+                            </div>
+                            <div class="collapse" id="salad_delo_vkusa">
+                                <div class="card card-body">
+                                    180гр сёмга с/с, салатный микс, картофельная паутинка, соус винегрет...................................240р
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="soup">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#soup1" aria-expanded="false" aria-controls="soup1">
+                                <span class="button__text text_btn4">Суп</span>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="soup1" class="collapse" aria-labelledby="soup1" data-parent="#menu">
+                        <div class="card-body" align="center">
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#solyanka" role="button" aria-expanded="false" aria-controls="soup1">
+                                    Солянка
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#soup_lapsha_chiken" role="button" aria-expanded="false" aria-controls="soup1">
+                                    Суп-лапша куриная
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#soup_pure_cheese" role="button" aria-expanded="false" aria-controls="soup1">
+                                    Боул суп-пюре сырный
+                                </a>
+                            </p>
+                            <div class="collapse" id="solyanka">
+                                <div class="card card-body">
+                                    250гр...................................175р
+                                </div>
+                            </div>
+                            <div class="collapse" id="soup_lapsha_chiken">
+                                <div class="card card-body">
+                                    250гр...................................130р
+                                </div>
+                            </div>
+                            <div class="collapse" id="soup_pure_cheese">
+                                <div class="card card-body">
+                                    250гр...................................160р
+                                </div>
+                            </div>
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#boul_soup_pure_mushroom" role="button" aria-expanded="false" aria-controls="soup1">
+                                    Боул суп-пюре грибной
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#soup_finskiy_zaliv" role="button" aria-expanded="false" aria-controls="soup1">
+                                    Суп "Финский залив"
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#soup_tom_yam_with_chiken" role="button" aria-expanded="false" aria-controls="soup1">
+                                    Суп "Том-ям" остр. с курицей и грибами
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#soup_tom_yam_with_seafood" role="button" aria-expanded="false" aria-controls="soup1">
+                                    Суп "Том-ям" остр. с морепродуктами
+                                </a>
+                            </p>
+                            <div class="collapse" id="boul_soup_pure_mushroom">
+                                <div class="card card-body">
+                                    250гр...................................160р
+                                </div>
+                            </div>
+                            <div class="collapse" id="soup_finskiy_zaliv">
+                                <div class="card card-body">
+                                    250гр...................................245р
+                                </div>
+                            </div>
+                            <div class="collapse" id="soup_tom_yam_with_chiken">
+                                <div class="card card-body">
+                                    250гр...................................230р
+                                </div>
+                            </div>
+                            <div class="collapse" id="soup_tom_yam_with_seafood">
+                                <div class="card card-body">
+                                    250гр...................................245р
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header1" id="main_dishes">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#main_dishes1" aria-expanded="false" aria-controls="main_dishes1">
+                                <span class="button__text text_btn5">Вторые блюда</span>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="main_dishes1" class="collapse" aria-labelledby="main_dishes1" data-parent="#menu">
+                        <div class="card-body" align="center">
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#boul_with_potato_meat" role="button" aria-expanded="false" aria-controls="main_dishes1">
+                                    Боул с картофелем и мясом
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#boul_with_pelmeni" role="button" aria-expanded="false" aria-controls="main_dishes1">
+                                    Боул с домашними пельменями и сметаной
+                                </a>
+                            </p>
+                            <div class="collapse" id="boul_with_potato_meat">
+                                <div class="card card-body">
+                                    250гр...................................240р
+                                </div>
+                            </div>
+                            <div class="collapse" id="boul_with_pelmeni">
+                                <div class="card card-body">
+                                    180/25гр...................................230р
+                                </div>
+                            </div>
+                            <p>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#skumbriya_zapechonnaya" role="button" aria-expanded="false" aria-controls="main_dishes1">
+                                    Скумбрия запечённая целиком с овощами
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#boul_with_vareniki" role="button" aria-expanded="false" aria-controls="main_dishes1">
+                                    Боул с варениками
+                                </a>
+                            </p>
+                            <div class="collapse" id="skumbriya_zapechonnaya">
+                                <div class="card card-body">
+                                    250-300гр...................................260р
+                                </div>
+                            </div>
+                            <div class="collapse" id="boul_with_vareniki">
+                                <div class="card card-body">
+                                    180гр вареники с картофелем под нежным грибным соусом...................................180р
+                                </div>
+                            </div>
+                            <p>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#boul_file_gorbushu" role="button" aria-expanded="false" aria-controls="main_dishes1">
+                                    Боул филе горбуши со шпинатом
+                                </a>
+
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#chiken_shashlik" role="button" aria-expanded="false" aria-controls="main_dishes1">
+                                    Куриный шашлык в беконе с мар.луком
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#shashlik_iz_fish" role="button" aria-expanded="false" aria-controls="main_dishes1">
+                                    Шашлычок из рыбы с соусом "Наршараб"
+                                </a>
+                            </p>
+                            <div class="collapse" id="boul_file_gorbushu">
+                                <div class="card card-body">
+                                    180/25гр...................................230р
+                                </div>
+                            </div>
+                            <div class="collapse" id="chiken_shashlik">
+                                <div class="card card-body">
+                                    250/50/30гр...................................260р
+                                </div>
+                            </div>
+                            <div class="collapse" id="shashlik_iz_fish">
+                                <div class="card card-body">
+                                    180/25гр...................................280р
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="bluda_gril">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#bluda_gril1" aria-expanded="false" aria-controls="bluda_gril">
+                                <span class="button__text text_btn6">Блюда-гриль</span>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="bluda_gril1" class="collapse" aria-labelledby="bluda_gril1" data-parent="#menu">
+                        <div class="card-body" align="center">
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#stek_iz_somgi" role="button" aria-expanded="false" aria-controls="bluda_gril1">
+                                    Стейк из сёмги
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#stek_iz_svinini" role="button" aria-expanded="false" aria-controls="bluda_gril1">
+                                    Стейк из свинины с грибами
+                                </a>
+                            </p>
+                            <div class="collapse" id="stek_iz_somgi">
+                                <div class="card card-body">
+                                    170/30/5гр под соусом "Тар-тар"...................................400р
+                                </div>
+                            </div>
+                            <div class="collapse" id="stek_iz_svinini">
+                                <div class="card card-body">
+                                    180/25/25/5гр с картофелем по-деревенски...................................280р
+                                </div>
+                            </div>
+                            <p>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#stek_iz_indeyki" role="button" aria-expanded="false" aria-controls="bluda_gril1">
+                                    Стейк из индейки
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#stek_iz_chiken_layjka" role="button" aria-expanded="false" aria-controls="bluda_gril1">
+                                    Стейк из бедра цыплёнка
+                                </a>
+                            </p>
+                            <div class="collapse" id="stek_iz_indeyki">
+                                <div class="card card-body">
+                                    180/30/5гр под ягодным соусом...................................260р
+                                </div>
+                            </div>
+                            <div class="collapse" id="stek_iz_chiken_layjka">
+                                <div class="card card-body">
+                                    200/20/5гр острое блюдо...................................240р
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header1" id="pasta">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#pasta1" aria-expanded="false" aria-controls="pasta1">
+                                <span class="button__text text_btn2">Пасты</span>
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="pasta1" class="collapse" aria-labelledby="main_dishes1" data-parent="#menu">
+                        <div class="card-body" align="center">
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#pasta_karbonara" role="button" aria-expanded="false" aria-controls="pasta1">
+                                    Паста "Карбонара"
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#pasta_with_indeyka" role="button" aria-expanded="false" aria-controls="pasta1">
+                                    Паста с индейкой
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#pasta_fettuchini" role="button" aria-expanded="false" aria-controls="pasta1">
+                                    Паста "Феттучини"
+                                </a>
+                            </p>
+                            <div class="collapse" id="pasta_karbonara">
+                                <div class="card card-body">
+                                    200гр...................................220р
+                                </div>
+                            </div>
+                            <div class="collapse" id="pasta_with_indeyka">
+                                <div class="card card-body">
+                                    200гр с соусом Песто и кедровыми орешками...................................260р
+                                </div>
+                            </div>
+                            <div class="collapse" id="pasta_fettuchini">
+                                <div class="card card-body">
+                                    200гр с курицей и грибами...................................230р
+                                </div>
+                            </div>
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#pasta_boloneze" role="button" aria-expanded="false" aria-controls="pasta1">
+                                    Паста "Болоньезе"
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#pasta_with_seafood" role="button" aria-expanded="false" aria-controls="pasta1">
+                                    Паста с морепродуктами
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#pasta_with_vegetables" role="button" aria-expanded="false" aria-controls="pasta1">
+                                    Паста с овощами
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#pasta_with_losos" role="button" aria-expanded="false" aria-controls="pasta1">
+                                    Паста с лососем под сливочным соусом
+                                </a>
+                            </p>
+                            <div class="collapse" id="pasta_boloneze">
+                                <div class="card card-body">
+                                    200гр...................................240р
+                                </div>
+                            </div>
+                            <div class="collapse" id="pasta_with_seafood">
+                                <div class="card card-body">
+                                    200гр соус на выбор...................................260р
+                                </div>
+                            </div>
+                            <div class="collapse" id="pasta_with_vegetables">
+                                <div class="card card-body">
+                                    200гр...................................160р
+                                </div>
+                            </div>
+                            <div class="collapse" id="pasta_with_losos">
+                                <div class="card card-body">
+                                    340р
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="rizotto">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#rizotto1" aria-expanded="false" aria-controls="rizotto1">
+                                <span class="button__text text_btn">Ризотто</span>
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="rizotto1" class="collapse" aria-labelledby="rizotto1" data-parent="#menu">
+                        <div class="card-body" align="center">
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#rizotto_with_chiken" role="button" aria-expanded="false" aria-controls="rizotto1">
+                                    Ризотто с курицей и грибами
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#rizotto_with_seafood" role="button" aria-expanded="false" aria-controls="rizotto1">
+                                    Ризотто с морепродуктами
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#rizotto_with_vegetables" role="button" aria-expanded="false" aria-controls="rizotto1">
+                                    Ризотто с овощами
+                                </a>
+                            </p>
+                            <div class="collapse" id="rizotto_with_chiken">
+                                <div class="card card-body">
+                                    200/5гр...................................240р
+                                </div>
+                            </div>
+                            <div class="collapse" id="rizotto_with_seafood">
+                                <div class="card card-body">
+                                    200/5гр...................................260р
+                                </div>
+                            </div>
+                            <div class="collapse" id="rizotto_with_vegetables">
+                                <div class="card card-body">
+                                    200/5гр...................................180р
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header1" id="garniri">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#garniri1" aria-expanded="false" aria-controls="garniri1">
+                                <span class="button__text text_btn">Гарниры</span>
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="garniri1" class="collapse" aria-labelledby="garniri1" data-parent="#menu">
+                        <div class="card-body" align="center">
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#potato_fri" role="button" aria-expanded="false" aria-controls="garniri1">
+                                    Картофель фри
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#potato_po_derevenski" role="button" aria-expanded="false" aria-controls="garniri1">
+                                    Картофель по-деревенски
+                                </a>
+                            </p>
+                            <div class="collapse" id="potato_fri">
+                                <div class="card card-body">
+                                    150гр...................................80р
+                                </div>
+                            </div>
+                            <div class="collapse" id="potato_po_derevenski">
+                                <div class="card card-body">
+                                    150гр...................................80р
+                                </div>
+                            </div>
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#spagetti" role="button" aria-expanded="false" aria-controls="garniri1">
+                                    Спагетти
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#vegetables_gril" role="button" aria-expanded="false" aria-controls="garniri1">
+                                    Овощи гриль
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#vegetables_on_par" role="button" aria-expanded="false" aria-controls="garniri1">
+                                    Овощи на пару
+                                </a>
+                            </p>
+                            <div class="collapse" id="spagetti">
+                                <div class="card card-body">
+                                    150гр...................................60р
+                                </div>
+                            </div>
+                            <div class="collapse" id="vegetables_gril">
+                                <div class="card card-body">
+                                    150гр...................................100р
+                                </div>
+                            </div>
+                            <div class="collapse" id="vegetables_on_par">
+                                <div class="card card-body">
+                                    150гр...................................90р
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="sous">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#sous1" aria-expanded="false" aria-controls="sous1">
+                                <span class="button__text text_btn2">Соусы</span>
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="sous1" class="collapse" aria-labelledby="sous1" data-parent="#menu">
+                        <div class="card-body" align="center">
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="sous1">
+                                    Кетчуп - 20р
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="sous1">
+                                    Тар-тар - 30р
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="sous1">
+                                    Майонез - 25р
+                                </a>
+                            </p>
+                            <p>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="sous1">
+                                    Сметана - 35р
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="sous1">
+                                    Песто - 50р
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="sous1">
+                                    Имбирный острый - 50р
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header1" id="pizza">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#pizza1" aria-expanded="false" aria-controls="pizza1">
+                                <span class="button__text text_btn2">Пицца</span>
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="pizza1" class="collapse" aria-labelledby="pizza1" data-parent="#menu">
+                        <div class="card-body" align="center">
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#pizza_margarita" role="button" aria-expanded="false" aria-controls="pizza1">
+                                    Пицца "Маргарита"
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#pizza_with_chiken" role="button" aria-expanded="false" aria-controls="pizza1">
+                                    Пицца с курицей и грибами
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#pizza_with_seafood" role="button" aria-expanded="false" aria-controls="pizza1">
+                                    Пицца с морепродуктами
+                                </a>
+                            </p>
+                            <div class="collapse" id="pizza_margarita">
+                                <div class="card card-body">
+                                    350гр/650гр томатн.соус, помидоры, болгарский перец, итальянскиетравы, сыр...................................180р/190р
+                                </div>
+                            </div>
+                            <div class="collapse" id="pizza_with_chiken">
+                                <div class="card card-body">
+                                    350гр/650гр соус "Цезарь, огурцы солёные, курица, грибы, помидоры, сыр"...................................230р/400р
+                                </div>
+                            </div>
+                            <div class="collapse" id="pizza_with_seafood">
+                                <div class="card card-body">
+                                    350гр/650гр соус "Тар-тар", оливки, маслины, морепродукты, помидоры. сыр...................................245р/420р
+                                </div>
+                            </div>
+                            <p>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#pizza_cezar" role="button" aria-expanded="false" aria-controls="pizza1">
+                                    Пицца "Цезарь"
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#pizza_boloneze" role="button" aria-expanded="false" aria-controls="pizza1">
+                                    Пицца "Болоньезе"
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#pizza_bbw" role="button" aria-expanded="false" aria-controls="pizza1">
+                                    Пицца "BBW"
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#pizza_home" role="button" aria-expanded="false" aria-controls="pizza1">
+                                    Пицца "Домашняя"
+                                </a>
+                            </p>
+                            <div class="collapse" id="pizza_cezar">
+                                <div class="card card-body">
+                                    350гр/650гр соус "Цезарь", айсберг, курица, сухарики, помидоры, сыр...................................220р/390р
+                                </div>
+                            </div>
+                            <div class="collapse" id="pizza_boloneze">
+                                <div class="card card-body">
+                                    350гр/650гр соус томатный, мясной фарш, перец болг., томаты, сыр...................................240р/410р
+                                </div>
+                            </div>
+                            <div class="collapse" id="pizza_bbw">
+                                <div class="card card-body">
+                                    350гр/650гр соус "BWW", колб с/копч., бекон, курица, помидоры, сыр...................................260р/500р
+                                </div>
+                            </div>
+                            <div class="collapse" id="pizza_home">
+                                <div class="card card-body">
+                                    350гр/650гр соус томатный, майонез, колб п/к, ветчина, курица, огурцы сол., помидоры, сыр...................................210р/370р
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="deserti">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#deserti1" aria-expanded="false" aria-controls="deserti1">
+                                <span class="button__text text_btn7">Авторские десерты</span>
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="deserti1" class="collapse" aria-labelledby="deserti1" data-parent="#menu">
+                        <div class="card-body" align="center">
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#cake_napoleon" role="button" aria-expanded="false" aria-controls="deserti1">
+                                    торт "Наполеон"
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#cake_praga" role="button" aria-expanded="false" aria-controls="deserti1">
+                                    торт "Прага"
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#cake_tiramisu" role="button" aria-expanded="false" aria-controls="deserti1">
+                                    торт "Тирамису"
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#cake_italy_nut" role="button" aria-expanded="false" aria-controls="deserti1">
+                                    торт "Итальянский ореховый"
+                                </a>
+                            </p>
+                            <div class="collapse" id="cake_napoleon">
+                                <div class="card card-body">
+                                    120гр...................................150р
+                                </div>
+                            </div>
+                            <div class="collapse" id="cake_praga">
+                                <div class="card card-body">
+                                    120гр...................................155р
+                                </div>
+                            </div>
+                            <div class="collapse" id="cake_tiramisu">
+                                <div class="card card-body">
+                                    150гр...................................175р
+                                </div>
+                            </div>
+                            <div class="collapse" id="cake_italy_nut">
+                                <div class="card card-body">
+                                    120гр...................................150р
+                                </div>
+                            </div>
+                            <p>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#brauni_with_ice_cream" role="button" aria-expanded="false" aria-controls="deserti1">
+                                    Брауни с шариком мороженого
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#smetannik" role="button" aria-expanded="false" aria-controls="deserti1">
+                                    Сметанник
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#shtrudel_with_apple" role="button" aria-expanded="false" aria-controls="deserti1">
+                                    Штрудель с яблоками и вишней
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#jarenni_banana" role="button" aria-expanded="false" aria-controls="deserti1">
+                                    Жареный банан
+                                </a>
+                            </p>
+                            <div class="collapse" id="brauni_with_ice_cream">
+                                <div class="card card-body">
+                                    100/50гр...................................160р
+                                </div>
+                            </div>
+                            <div class="collapse" id="smetannik">
+                                <div class="card card-body">
+                                    120гр...................................120р
+                                </div>
+                            </div>
+                            <div class="collapse" id="shtrudel_with_apple">
+                                <div class="card card-body">
+                                    100/50гр подаётся с шариком мороженого...................................155р
+                                </div>
+                            </div>
+                            <div class="collapse" id="jarenni_banana">
+                                <div class="card card-body">
+                                    180гр с шариком мороженого и шоколадом...................................180р
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header1" id="kids">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#kids1" aria-expanded="false" aria-controls="kids1">
+                                <span class="button__text text_btn5">Детское меню</span>
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="kids1" class="collapse" aria-labelledby="kids1" data-parent="#menu">
+                        <div class="card-body" align="center">
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#kids_salad_vegetables" role="button" aria-expanded="false" aria-controls="kids1">
+                                    Салат "Овощная грядка"
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#kids_salad_olive" role="button" aria-expanded="false" aria-controls="kids1">
+                                    Салат "Оливьешка" с курочкой
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#kids_sou_lapsha" role="button" aria-expanded="false" aria-controls="kids1">
+                                    Суп-лапша куриный
+                                </a>
+                            </p>
+                            <div class="collapse" id="kids_salad_vegetables">
+                                <div class="card card-body">
+                                    120гр (перец болгарский, томат. огурец, сметана)...................................80р
+                                </div>
+                            </div>
+                            <div class="collapse" id="kids_salad_olive">
+                                <div class="card card-body">
+                                    120гр...................................90р
+                                </div>
+                            </div>
+                            <div class="collapse" id="kids_sou_lapsha">
+                                <div class="card card-body">
+                                    150гр...................................90р
+                                </div>
+                            </div>
+                            <p>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#kids_krem_soup" role="button" aria-expanded="false" aria-controls="kids1">
+                                    Крем-суп сырный
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#kids_potato_fri" role="button" aria-expanded="false" aria-controls="kids1">
+                                    Картофель фри
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#kids_potato_derevnya" role="button" aria-expanded="false" aria-controls="kids1">
+                                    Картофель по-деревенски
+                                </a>
+                            </p>
+                            <div class="collapse" id="kids_krem_soup">
+                                <div class="card card-body">
+                                    150гр...................................120р
+                                </div>
+                            </div>
+                            <div class="collapse" id="kids_potato_fri">
+                                <div class="card card-body">
+                                    100гр...................................90р
+                                </div>
+                            </div>
+                            <div class="collapse" id="kids_potato_derevnya">
+                                <div class="card card-body">
+                                    100гр...................................90р
+                                </div>
+                            </div>
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#kids_potato_pure" role="button" aria-expanded="false" aria-controls="kids1">
+                                    Картофельное пюре
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#kids_nagetsi" role="button" aria-expanded="false" aria-controls="kids1">
+                                    Нагетсы куриные
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#kids_blin_with_meat" role="button" aria-expanded="false" aria-controls="kids1">
+                                    Блинчики с мясом 2 шт.
+                                </a>
+                            </p>
+                            <div class="collapse" id="kids_potato_pure">
+                                <div class="card card-body">
+                                    150гр...................................75р
+                                </div>
+                            </div>
+                            <div class="collapse" id="kids_nagetsi">
+                                <div class="card card-body">
+                                    120гр...................................140р
+                                </div>
+                            </div>
+                            <div class="collapse" id="kids_blin_with_meat">
+                                <div class="card card-body">135р</div>
+                            </div>
+                            <p>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#kids_blin_with_tvorog" role="button" aria-expanded="false" aria-controls="kids1">
+                                    Блинчики с творогом 2 шт.
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#kids_pelmeni" role="button" aria-expanded="false" aria-controls="kids1">
+                                    Пельмешки домашние
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#kids_pasta_with_cheese" role="button" aria-expanded="false" aria-controls="kids1">
+                                    Паста с сыром
+                                </a>
+                            </p>
+                            <div class="collapse" id="kids_blin_with_tvorog">
+                                <div class="card card-body">120р</div>
+                            </div>
+                            <div class="collapse" id="kids_pelmeni">
+                                <div class="card card-body">
+                                    160гр...................................170р
+                                </div>
+                            </div>
+                            <div class="collapse" id="kids_pasta_with_cheese">
+                                <div class="card card-body">
+                                    150гр...................................100р
+                                </div>
+                            </div>
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#kids_pasta_boloneze" role="button" aria-expanded="false" aria-controls="kids1">
+                                    Паста "Болоньезе"
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#kids_burger" role="button" aria-expanded="false" aria-controls="kids1">
+                                    Бургер с курочкой
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#kids_sandwich" role="button" aria-expanded="false" aria-controls="kids1">
+                                    Сэндвич с ветчиной и сыром
+                                </a>
+                            </p>
+                            <div class="collapse" id="kids_pasta_boloneze">
+                                <div class="card card-body">
+                                    150гр...................................125р
+                                </div>
+                            </div>
+                            <div class="collapse" id="kids_burger">
+                                <div class="card card-body">
+                                    150гр...................................140р
+                                </div>
+                            </div>
+                            <div class="collapse" id="kids_sandwich">
+                                <div class="card card-body">
+                                    120гр...................................95р
+                                </div>
+                            </div>
+                            <p>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#kids_sirniki" role="button" aria-expanded="false" aria-controls="kids1">
+                                    Сырнички с шоколадом или сгущёнкой 2 шт.
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#kids_blin_with_chocolate" role="button" aria-expanded="false" aria-controls="kids1">
+                                    Блинчики с шоколадом или сгущёнкой 2 шт.
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="kids1">
+                                    Сметана - 20р
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="kids1">
+                                    Соус томатный - 20р
+                                </a>
+                            </p>
+                            <div class="collapse" id="kids_sirniki">
+                                <div class="card card-body">
+                                    120гр...................................120р
+                                </div>
+                            </div>
+                            <div class="collapse" id="kids_blin_with_chocolate">
+                                <div class="card card-body">
+                                    120гр...................................120р
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="coffee">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#coffee1" aria-expanded="false" aria-controls="coffee1">
+                                <span class="button__text text_btn8">Кофе</span>
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="coffee1" class="collapse" aria-labelledby="coffee1" data-parent="#menu">
+                        <div class="card-body" align="center">
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#espresso" role="button" aria-expanded="false" aria-controls="coffee1">
+                                    Эспрессо
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#americano" role="button" aria-expanded="false" aria-controls="coffee1">
+                                    Американо
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#glyasse" role="button" aria-expanded="false" aria-controls="coffee1">
+                                    Гляссе
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#coffee_french_press" role="button" aria-expanded="false" aria-controls="coffee1">
+                                    Кофе во френч-прессе
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#kapuchino" role="button" aria-expanded="false" aria-controls="coffee1">
+                                    Капучино
+                                </a>
+                            </p>
+                            <div class="collapse" id="espresso">
+                                <div class="card card-body">
+                                    40мл/80мл (подается с бокалом воды)...................................50р/100р
+                                </div>
+                            </div>
+                            <div class="collapse" id="americano">
+                                <div class="card card-body">
+                                    150мл/280мл...................................70р/90р
+                                </div>
+                            </div>
+                            <div class="collapse" id="glyasse">
+                                <div class="card card-body">
+                                    210мл/330мл (американо с мороженым и ванильным сиропом)...................................175р/225р
+                                </div>
+                            </div>
+                            <div class="collapse" id="coffee_french_press">
+                                <div class="card card-body">
+                                    600мл...................................200р
+                                </div>
+                            </div>
+                            <div class="collapse" id="kapuchino">
+                                <div class="card card-body">
+                                    150мл/200мл/400мл...................................95р/135р/285р
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header1" id="coffee_napitki">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#coffee_napitki1" aria-expanded="false" aria-controls="coffee_napitki1">
+                                <span class="button__text text_btn7">Кофейные напитки</span>
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="coffee_napitki1" class="collapse" aria-labelledby="coffee_napitki1" data-parent="#menu">
+                        <div class="card-body" align="center">
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#capuchino_chocolate" role="button" aria-expanded="false" aria-controls="coffee_napitki1">
+                                    Капучино "Шоколадный"
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#capuchino_kashtan" role="button" aria-expanded="false" aria-controls="coffee_napitki1">
+                                    Капучино "Каштановый"
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#capuchino_karameln" role="button" aria-expanded="false" aria-controls="coffee_napitki1">
+                                    Капучино "Карамельный"
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#capuchino_ice" role="button" aria-expanded="false" aria-controls="coffee_napitki1">
+                                    Капучино "Айс-капучино"
+                                </a>
+                            </p>
+                            <div class="collapse" id="capuchino_chocolate">
+                                <div class="card card-body">
+                                    280мл приготовлен на молоке и шоколаде...................................195р
+                                </div>
+                            </div>
+                            <div class="collapse" id="capuchino_kashtan">
+                                <div class="card card-body">
+                                    280мл...................................195р
+                                </div>
+                            </div>
+                            <div class="collapse" id="capuchino_karameln">
+                                <div class="card card-body">
+                                    330мл с карамельным топпингом и карамельным сиропом...................................200р
+                                </div>
+                            </div>
+                            <div class="collapse" id="capuchino_ice">
+                                <div class="card card-body">
+                                    330мл холодный капучино с густой молочной пенкой и льдом...................................200р
+                                </div>
+                            </div>
+                            <p>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#raf_banana" role="button" aria-expanded="false" aria-controls="coffee_napitki1">
+                                    Раф-кофе "Банан-корица"
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#raf" role="button" aria-expanded="false" aria-controls="coffee_napitki1">
+                                    Раф-кофе
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#latte" role="button" aria-expanded="false" aria-controls="coffee_napitki1">
+                                    Латте
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#latte_cream_brule" role="button" aria-expanded="false" aria-controls="coffee_napitki1">
+                                    Латте "Крем-брюле" с маршмеллоу
+                                </a>
+                            </p>
+                            <div class="collapse" id="raf_banana">
+                                <div class="card card-body">
+                                    200мл/400мл...................................155р/285р
+                                </div>
+                            </div>
+                            <div class="collapse" id="raf">
+                                <div class="card card-body">
+                                    200мл/400мл...................................155р/255р
+                                </div>
+                            </div>
+                            <div class="collapse" id="latte">
+                                <div class="card card-body">
+                                    220мл/330мл эспрессо с молоком и молочной пенкой...................................115р/225р
+                                </div>
+                            </div>
+                            <div class="collapse" id="latte_cream_brule">
+                                <div class="card card-body">
+                                    330мл сочетание карамели и сиропа крем-брюле, украшен взбитыми сливками под россыпью маршмеллоу и карамельным топингом...................................245р
+                                </div>
+                            </div>
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#latte_chocolate" role="button" aria-expanded="false" aria-controls="coffee_napitki1">
+                                    Латте "Шоколад-мята"
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#latte_banana" role="button" aria-expanded="false" aria-controls="coffee_napitki1">
+                                    Латте "Банановая карамель"
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#latte_chernichni_pie" role="button" aria-expanded="false" aria-controls="coffee_napitki1">
+                                    Латте "Черничный пирог"
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#mokko" role="button" aria-expanded="false" aria-controls="coffee_napitki1">
+                                    Мокко с горьким шоколадом и миндалём
+                                </a>
+                            </p>
+                            <div class="collapse" id="latte_chocolate">
+                                <div class="card card-body">
+                                    330мл...................................265р
+                                </div>
+                            </div>
+                            <div class="collapse" id="latte_banana">
+                                <div class="card card-body">
+                                    330мл...................................275р
+                                </div>
+                            </div>
+                            <div class="collapse" id="latte_chernichni_pie">
+                                <div class="card card-body">
+                                    330мл с шоколадным топпингом и взбитыми сливками...................................259р
+                                </div>
+                            </div>
+                            <div class="collapse" id="mokko">
+                                <div class="card card-body">
+                                    330мл сочетание эсперессо, молока, шоколада и легких ноток миндаля...................................225р
+                                </div>
+                            </div>
+                            <p>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#slivochni_mokko" role="button" aria-expanded="false" aria-controls="coffee_napitki1">
+                                    Сливочный мокко
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#koktail_dd" role="button" aria-expanded="false" aria-controls="coffee_napitki1">
+                                    Фирменный коктейль «Друг другу»
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#frappe_yagodni_miks" role="button" aria-expanded="false" aria-controls="coffee_napitki1">
+                                    Фраппе из ягодного микса и льда
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#frappe_chocolate" role="button" aria-expanded="false" aria-controls="coffee_napitki1">
+                                    Шоколадное фраппе со льдом
+                                </a>
+                            </p>
+                            <div class="collapse" id="slivochni_mokko">
+                                <div class="card card-body">
+                                    220мл с белым шоколадом и кокосом...................................245р
+                                </div>
+                            </div>
+                            <div class="collapse" id="koktail_dd">
+                                <div class="card card-body">
+                                    330мл ...................................255р
+                                </div>
+                            </div>
+                            <div class="collapse" id="frappe_yagodni_miks">
+                                <div class="card card-body">
+                                    330мл вишня и клубника...................................285р
+                                </div>
+                            </div>
+                            <div class="collapse" id="frappe_chocolate">
+                                <div class="card card-body">
+                                    330мл...................................295р
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="cacao">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#cacao1" aria-expanded="false" aria-controls="cacao1">
+                                <span class="button__text text_btn9">Какао</span>
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="cacao1" class="collapse" aria-labelledby="cacao1" data-parent="#menu">
+                        <div class="card-body" align="center">
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#cacao_home" role="button" aria-expanded="false" aria-controls="cacao1">
+                                    Домашнее какао
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#cacao_with_marshmalov" role="button" aria-expanded="false" aria-controls="cacao1">
+                                    Какао с маршмелоу
+                                </a>
+                            </p>
+                            <div class="collapse" id="cacao_home">
+                                <div class="card card-body">
+                                    200мл/280мл...................................150р/195р
+                                </div>
+                            </div>
+                            <div class="collapse" id="cacao_with_marshmalov">
+                                <div class="card card-body">
+                                    280мл...................................235 р
+                                </div>
+                            </div>
+                            <p>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#cacao_venskoe" role="button" aria-expanded="false" aria-controls="cacao1">
+                                    Какао "Венское с корицей"
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#cacao_banana" role="button" aria-expanded="false" aria-controls="cacao1">
+                                    Какао "Карамельно-банановое"
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#cacao_mindal" role="button" aria-expanded="false" aria-controls="cacao1">
+                                    Какао "Миндально-вишнёвое"
+                                </a>
+                            </p>
+                            <div class="collapse" id="cacao_venskoe">
+                                <div class="card card-body">
+                                    280мл...................................255р
+                                </div>
+                            </div>
+                            <div class="collapse" id="cacao_banana">
+                                <div class="card card-body">
+                                    280мл...................................225р
+                                </div>
+                            </div>
+                            <div class="collapse" id="cacao_mindal">
+                                <div class="card card-body">
+                                    280мл...................................235р
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header1" id="tea">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#tea1" aria-expanded="false" aria-controls="tea1">
+                                <span class="button__text text_btn4">Чай</span>
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="tea1" class="collapse" aria-labelledby="black_tea1" data-parent="#menu">
+                        <div class="card-body" align="center">
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#black_tea1" role="button" aria-expanded="false" aria-controls="tea1">
+                                    Чёрный чай
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#green_tea1" role="button" aria-expanded="false" aria-controls="tea1">
+                                    Зелёный чай
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#smeshanni_tea" role="button" aria-expanded="false" aria-controls="tea1">
+                                    Смешанные чаи
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#tea_v_chashke" role="button" aria-expanded="false" aria-controls="tea1">
+                                    Чай в чашках 220мл
+                                </a>
+                            </p>
+                            <div class="collapse" id="black_tea1">
+                                <div class="card card-body">
+                                    <p>
+                                        <a class="btn button__text_peach" data-toggle="collapse" href="#massala" role="button" aria-expanded="false" aria-controls="tea1">
+                                            Массала чай
+                                        </a>
+                                        <a class="btn button__text_blue" data-toggle="collapse" href="#gloggi" role="button" aria-expanded="false" aria-controls="tea1">
+                                            Глогги чай
+                                        </a>
+                                        <a class="btn button__text_peach" data-toggle="collapse" href="#puer" role="button" aria-expanded="false" aria-controls="tea1">
+                                            Пуэр классический
+                                        </a>
+                                        <a class="btn button__text_blue" data-toggle="collapse" href="#erl_grey" role="button" aria-expanded="false" aria-controls="tea1">
+                                            Эрл грей
+                                        </a>
+                                    </p>
+                                    <div class="collapse" id="massala">
+                                        <div class="card card-body">
+                                            700мл согревающий напиток с молоком, медом, анисом и пряностями...................................250р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="gloggi">
+                                        <div class="card card-body">
+                                            700мл на основе вишни, клубники, клюквы, мяты и имбиря...................................250р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="puer">
+                                        <div class="card card-body">
+                                            300мл/600мл...................................145р/260р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="erl_grey">
+                                        <div class="card card-body">
+                                            300мл/600мл с бергамотом...................................90р/140р
+                                        </div>
+                                    </div>
+                                    <p>
+                                        <a class="btn button__text_blue" data-toggle="collapse" href="#nahalni_fruct" role="button" aria-expanded="false" aria-controls="tea1">
+                                            Чай "Нахальный фрукт"
+                                        </a>
+                                        <a class="btn button__text_peach" data-toggle="collapse" href="#tea_klubnika_so_slivkami" role="button" aria-expanded="false" aria-controls="tea1">
+                                            Чай "Клубника со сливками"
+                                        </a>
+                                        <a class="btn button__text_blue" data-toggle="collapse" href="#assam" role="button" aria-expanded="false" aria-controls="tea1">
+                                            Классический чёрный чай "Ассам"
+                                        </a>
+                                        <a class="btn button__text_peach" data-toggle="collapse" href="#black_tea_with_chabretc" role="button" aria-expanded="false" aria-controls="tea1">
+                                            Чёрный чай с чабрецом
+                                        </a>
+                                    </p>
+                                    <div class="collapse" id="nahalni_fruct">
+                                        <div class="card card-body">
+                                            300мл/600мл...................................90р/140р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="tea_klubnika_so_slivkami">
+                                        <div class="card card-body">
+                                            300мл/600мл...................................90р/140р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="assam">
+                                        <div class="card card-body">
+                                            300мл/600мл...................................145р/260р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="black_tea_with_chabretc">
+                                        <div class="card card-body">
+                                            300мл/600мл...................................100р/150р
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="collapse" id="green_tea1">
+                                <div class="card card-body">
+                                    <p>
+                                        <a class="btn button__text_peach" data-toggle="collapse" href="#milk_ulun" role="button" aria-expanded="false" aria-controls="tea1">
+                                            Молочный улун
+                                        </a>
+                                        <a class="btn button__text_blue" data-toggle="collapse" href="#ganpauder" role="button" aria-expanded="false" aria-controls="tea1">
+                                            Ганпаудер
+                                        </a>
+                                        <a class="btn button__text_peach" data-toggle="collapse" href="#jasmin_green" role="button" aria-expanded="false" aria-controls="tea1">
+                                            Жасминовый зелёный чай
+                                        </a>
+                                        <a class="btn button__text_blue" data-toggle="collapse" href="#white_spring_tea" role="button" aria-expanded="false" aria-controls="tea1">
+                                            Белый весенний чай
+                                        </a>
+                                        <a class="btn button__text_peach" data-toggle="collapse" href="#sencha" role="button" aria-expanded="false" aria-controls="tea1">
+                                            Чай сенча
+                                        </a>
+                                    </p>
+                                    <div class="collapse" id="milk_ulun">
+                                        <div class="card card-body">
+                                            300мл/600мл...................................145р/250р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="ganpauder">
+                                        <div class="card card-body">
+                                            300мл/600мл китайский элитный чай...................................145р/250р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="jasmin_green">
+                                        <div class="card card-body">
+                                            300мл/600мл...................................80р/130р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="white_spring_tea">
+                                        <div class="card card-body">
+                                            300мл/600мл...................................80р/130р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="sencha">
+                                        <div class="card card-body">
+                                            300мл/600мл...................................100р/160р
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="collapse" id="smeshanni_tea">
+                                <div class="card card-body">
+                                    <p>
+                                        <a class="btn button__text_peach" data-toggle="collapse" href="#oblepihovi_tea" role="button" aria-expanded="false" aria-controls="tea1">
+                                            Облепиховый чай
+                                        </a>
+                                        <a class="btn button__text_blue" data-toggle="collapse" href="#korolevski_karkade" role="button" aria-expanded="false" aria-controls="tea1">
+                                            Королевский каркаде
+                                        </a>
+                                        <a class="btn button__text_peach" data-toggle="collapse" href="#roibush_apelsin" role="button" aria-expanded="false" aria-controls="tea1">
+                                            Ройбуш апельсин
+                                        </a>
+                                    </p>
+                                    <div class="collapse" id="oblepihovi_tea">
+                                        <div class="card card-body">
+                                            300мл/600мл с цедрой апельсина и медом...................................180р/240р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="korolevski_karkade">
+                                        <div class="card card-body">
+                                            300мл/600мл...................................100р/150р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="roibush_apelsin">
+                                        <div class="card card-body">
+                                            300мл/600мл...................................100р/150р
+                                        </div>
+                                    </div>
+                                    <p>
+                                        <a class="btn button__text_blue" data-toggle="collapse" href="#imbir_limon_tea" role="button" aria-expanded="false" aria-controls="tea1">
+                                            Имбирно-лимонный
+                                        </a>
+                                        <a class="btn button__text_peach" data-toggle="collapse" href="#black_tea_smorodina" role="button" aria-expanded="false" aria-controls="tea1">
+                                            Чёрный чай
+                                        </a>
+                                        <a class="btn button__text_blue" data-toggle="collapse" href="#black_tea_klukva" role="button" aria-expanded="false" aria-controls="tea1">
+                                            Чёрный чай
+                                        </a>
+                                        <a class="btn button__text_peach" data-toggle="collapse" href="#ivan_tea" role="button" aria-expanded="false" aria-controls="tea1">
+                                            Иван чай
+                                        </a>
+                                    </p>
+                                    <div class="collapse" id="imbir_limon_tea">
+                                        <div class="card card-body">
+                                            300мл/600мл...................................145р/260р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="black_tea_smorodina">
+                                        <div class="card card-body">
+                                            300мл/600мл со смородиной, имбирем, лимоном и мятой...................................145р/260р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="black_tea_klukva">
+                                        <div class="card card-body">
+                                            300мл/600мл с вишней, клюквой, лимоном и зеленым яблоком...................................145р/260р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="ivan_tea">
+                                        <div class="card card-body">
+                                            300мл/600мл...................................100р/150р
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="collapse" id="tea_v_chashke">
+                                <div class="card card-body">
+                                    <p>
+                                        <a class="btn button__text_blue" data-toggle="collapse" href="#matca_tea" role="button" aria-expanded="false" aria-controls="tea1">
+                                            Матча чай
+                                        </a>
+                                        <a class="btn button__text_peach" data-toggle="collapse" href="#latte_matcha_tea" role="button" aria-expanded="false" aria-controls="tea1">
+                                            Латте матча
+                                        </a>
+                                        <a class="btn button__text_blue" data-toggle="collapse" href="#green_tea_classic" role="button" aria-expanded="false" aria-controls="tea1">
+                                            Классический зелёный чай
+                                        </a>
+                                        <a class="btn button__text_peach" data-toggle="collapse" href="#black_tea_classic" role="button" aria-expanded="false" aria-controls="tea1">
+                                            Классический чёрный чай
+                                        </a>
+                                    </p>
+                                    <div class="collapse" id="matca_tea">
+                                        <div class="card card-body">
+                                            180р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="latte_matcha_tea">
+                                        <div class="card card-body">
+                                            240р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="green_tea_classic">
+                                        <div class="card card-body">
+                                            70р
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="black_tea_classic">
+                                        <div class="card card-body">
+                                            70р
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="hot_chocolate">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#hot_chocolate1" aria-expanded="false" aria-controls="hot_chocolate1">
+                                <span class="button__text text_btn3">Горячий шоколад</span>
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="hot_chocolate1" class="collapse" aria-labelledby="hot_chocolate1" data-parent="#menu">
+                        <div class="card-body" align="center">
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#hot_chocolate_dd" role="button" aria-expanded="false" aria-controls="hot_chocolate1">
+                                    Фирменный горячий шоколад
+                                </a>
+                            </p>
+                            <div class="collapse" id="hot_chocolate_dd">
+                                <div class="card card-body">
+                                    100мл/200мл варим сами...................................120р/200р
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header1" id="ice_cream_menu">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#ice_cream_menu1" aria-expanded="false" aria-controls="ice_cream_menu1">
+                                <span class="button__text text_btn10">Мороженое</span>
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="ice_cream_menu1" class="collapse" aria-labelledby="ice_cream_menu1" data-parent="#menu">
+                        <div class="card-body" align="center">
+                            50гр ваниль/клубника/шоколад...................................50р
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header" id="milk_coctail">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#milk_coctail1" aria-expanded="false" aria-controls="milk_coctail1">
+                                <span class="button__text text_btn7">Молочные коктейли</span>
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="milk_coctail1" class="collapse" aria-labelledby="" data-parent="#menu">
+                        <div class="card-body" align="center">
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#med_milk_coctail" role="button" aria-expanded="false" aria-controls="milk_coctail1">
+                                    "Медовый"
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#tiramissu" role="button" aria-expanded="false" aria-controls="milk_coctail1">
+                                    "Тирамиссу"
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#kon_pana" role="button" aria-expanded="false" aria-controls="milk_coctail1">
+                                    "Кон-пана"
+                                </a>
+                            </p>
+                            <div class="collapse" id="med_milk_coctail">
+                                <div class="card card-body">
+                                    600мл молоко, мёд, корица, анис, взбитые сливки, мороженое...................................255р
+                                </div>
+                            </div>
+                            <div class="collapse" id="tiramissu">
+                                <div class="card card-body">
+                                    330мл эспрессо, печенье савоярди, ореховый сироп,
+                                    взбитые сливки, какао, молоко, мороженое...................................275р
+                                </div>
+                            </div>
+                            <div class="collapse" id="kon_pana">
+                                <div class="card card-body">
+                                    330мл молоко, мороженое, сироп «Блю-Курасао»,
+                                    взбитые сливки, топпинг банановый...................................245р
+                                </div>
+                            </div>
+                            <p>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#slivochno_vafelni" role="button" aria-expanded="false" aria-controls="milk_coctail1">
+                                    Сливочно-вафельный со вкусом клубники
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#pina_kollada" role="button" aria-expanded="false" aria-controls="milk_coctail1">
+                                    "Пина-Коллада"
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#mint_splin" role="button" aria-expanded="false" aria-controls="milk_coctail1">
+                                    "Мятный сплин"
+                                </a>
+                            </p>
+                            <div class="collapse" id="slivochno_vafelni">
+                                <div class="card card-body">
+                                    330мл...................................220р
+                                </div>
+                            </div>
+                            <div class="collapse" id="pina_kollada">
+                                <div class="card card-body">
+                                    330мл ананас сок, кокос стружка, кокос сироп, взбитые сливки,
+                                    сливочное мороженое, молоко...................................245р
+                                </div>
+                            </div>
+                            <div class="collapse" id="mint_splin">
+                                <div class="card card-body">
+                                    600мл банан, мята, мороженое, молоко, взбитые <сливки></сливки>...................................245р
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header1" id="milk_sheik">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#milk_sheik1" aria-expanded="false" aria-controls="milk_sheik1">
+                                <span class="button__text text_btn3">Молочные шейки</span>
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="milk_sheik1" class="collapse" aria-labelledby="milk_sheik1" data-parent="#menu">
+                        <div class="card card-body" align="center">
+                            <strong>Вкус на выбор:</strong> шоколад, клубника, фисташка. ваниль, ореховый,
+                            ананасовый, грушевый, банановый, вишнёвый, гранатовый. карамельный <br>
+                            220мл/330мл...................................155р/195р
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="smuzi">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#smuzi1" aria-expanded="false" aria-controls="smuzi1">
+                                <span class="button__text text_btn8">Смузи</span>
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="smuzi1" class="collapse" aria-labelledby="" data-parent="#menu">
+                        <div class="card-body" align="center">
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#smuzi_yagodni" role="button" aria-expanded="false" aria-controls="smuzi1">
+                                    Ягодный смузи
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#smuzi_vitamin_c" role="button" aria-expanded="false" aria-controls="smuzi1">
+                                    Смузи витамин «С»
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#smuzi_oblepiha_apelsin" role="button" aria-expanded="false" aria-controls="smuzi1">
+                                    Смузи облепихово-апельсиновый
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#smuzi_slivochnaya_klubnika" role="button" aria-expanded="false" aria-controls="smuzi1">
+                                    Смэш «Сливочная клубника»
+                                </a>
+                            </p>
+                            <div class="collapse" id="smuzi_yagodni">
+                                <div class="card card-body">
+                                    330мл вишня, клубника, смородина с ванилью...................................255р
+                                </div>
+                            </div>
+                            <div class="collapse" id="smuzi_vitamin_c">
+                                <div class="card card-body">
+                                    330мл апельсин, лайм, яблоко, лимон...................................255р
+                                </div>
+                            </div>
+                            <div class="collapse" id="smuzi_oblepiha_apelsin">
+                                <div class="card card-body">
+                                    330мл...................................275р
+                                </div>
+                            </div>
+                            <div class="collapse" id="smuzi_slivochnaya_klubnika">
+                                <div class="card card-body">
+                                    600мл сливки взбитые, клубника, мороженое клубничное, молоко, сливки 10%...................................235р
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header1" id="non_alhogolcoctel">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#non_alhogolcoctel1" aria-expanded="false" aria-controls="non_alhogolcoctel1">
+                                <span class="button__text text_btn11">Безалкогольные коктейли</span>
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="non_alhogolcoctel1" class="collapse" aria-labelledby="non_alhogolcoctel1" data-parent="#menu">
+                        <div class="card-body" align="center">
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#kvas" role="button" aria-expanded="false" aria-controls="non_alhogolcoctel1">
+                                    Квас
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#kola" role="button" aria-expanded="false" aria-controls="non_alhogolcoctel1">
+                                    Кола, Спрайт
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#water" role="button" aria-expanded="false" aria-controls="non_alhogolcoctel1">
+                                    Вода газированная/негазированная
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#classic_ice_tea" role="button" aria-expanded="false" aria-controls="non_alhogolcoctel1">
+                                    Классический айс-ти
+                                </a>
+                            </p>
+                            <div class="collapse" id="kvas">
+                                <div class="card card-body">
+                                    300мл...................................70р
+                                </div>
+                            </div>
+                            <div class="collapse" id="kola">
+                                <div class="card card-body">
+                                    300мл вишня, клубника, смородина ,груша...................................70р
+                                </div>
+                            </div>
+                            <div class="collapse" id="water">
+                                <div class="card card-body">
+                                    330мл...................................50р
+                                </div>
+                            </div>
+                            <div class="collapse" id="classic_ice_tea">
+                                <div class="card card-body">
+                                    330мл на основе чая, лимона, льда, мяты...................................145р
+                                </div>
+                            </div>
+                            <p>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#limonad_oguretc" role="button" aria-expanded="false" aria-controls="non_alhogolcoctel1">
+                                    Огуречный лимонад
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#pivo" role="button" aria-expanded="false" aria-controls="non_alhogolcoctel1">
+                                    Пиво безалкогольное
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#mohito_classic" role="button" aria-expanded="false" aria-controls="non_alhogolcoctel1">
+                                    Мохито классический
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#mohito_vkus" role="button" aria-expanded="false" aria-controls="non_alhogolcoctel1">
+                                    Мохито на ваш вкус
+                                </a>
+                            </p>
+                            <div class="collapse" id="limonad_oguretc">
+                                <div class="card card-body">
+                                    330мл...................................280р
+                                </div>
+                            </div>
+                            <div class="collapse" id="pivo">
+                                <div class="card card-body">
+                                    500мл...................................150р
+                                </div>
+                            </div>
+                            <div class="collapse" id="mohito_classic">
+                                <div class="card card-body">
+                                    330мл...................................185р
+                                </div>
+                            </div>
+                            <div class="collapse" id="mohito_vkus">
+                                <div class="card card-body">
+                                    330мл вишня, клубника, смородина ,груша...................................225р
+                                </div>
+                            </div>
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#mohito_with_oblepiha" role="button" aria-expanded="false" aria-controls="non_alhogolcoctel1">
+                                    Мохито с облепихой и апельсином
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#coffee_granita" role="button" aria-expanded="false" aria-controls="non_alhogolcoctel1">
+                                    Кофейная гранита с вишневым вкусом
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#limonad_dd" role="button" aria-expanded="false" aria-controls="non_alhogolcoctel1">
+                                    Домашний классический лимонад
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#limonad_vkus" role="button" aria-expanded="false" aria-controls="non_alhogolcoctel1">
+                                    Лимонад на ваш вкус
+                                </a>
+                            </p>
+                            <div class="collapse" id="mohito_with_oblepiha">
+                                <div class="card card-body">
+                                    330мл...................................245р
+                                </div>
+                            </div>
+                            <div class="collapse" id="coffee_granita">
+                                <div class="card card-body">
+                                    220мл кофе, лед, вишневый сироп...................................155р
+                                </div>
+                            </div>
+                            <div class="collapse" id="limonad_dd">
+                                <div class="card card-body">
+                                    330мл...................................135р
+                                </div>
+                            </div>
+                            <div class="collapse" id="limonad_vkus">
+                                <div class="card card-body">
+                                    330мл вишня, клубника, банан, дюшес, гранат...................................155р
+                                </div>
+                            </div>
+                            <p>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#cocteil_yagodnaya_kollada" role="button" aria-expanded="false" aria-controls="non_alhogolcoctel1">
+                                    Коктейль «Ягодная коллада»
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#coctail_sanrais" role="button" aria-expanded="false" aria-controls="non_alhogolcoctel1">
+                                    Коктейль «Санрайс»
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#glintvein_non_alhogol" role="button" aria-expanded="false" aria-controls="non_alhogolcoctel1">
+                                    Глинтвейн безалкогольный
+                                </a>
+                            </p>
+                            <div class="collapse" id="cocteil_yagodnaya_kollada">
+                                <div class="card card-body">
+                                    330мл смородина, вишня, клубника, мята, лимон на основе спрайта...................................175р
+                                </div>
+                            </div>
+                            <div class="collapse" id="coctail_sanrais">
+                                <div class="card card-body">
+                                    330мл апельсиновый сок, лед, лимонный сок, гранатовый сироп...................................175р
+                                </div>
+                            </div>
+                            <div class="collapse" id="glintvein_non_alhogol">
+                                <div class="card card-body">
+                                    220мл сок вишни , дольки апельсина, лимона и зеленого яблока
+                                    с добавлением пряностей...................................180р
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="fresh">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#fresh1" aria-expanded="false" aria-controls="fresh1">
+                                <span class="button__text text_btn9">Фреши</span>
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="fresh1" class="collapse" aria-labelledby="fresh1" data-parent="#menu">
+                        <div class="card-body" align="center">
+                            <p>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#fresh_apelsin" role="button" aria-expanded="false" aria-controls="fresh1">
+                                    Апельсиновый фреш
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#fresh_morkov" role="button" aria-expanded="false" aria-controls="fresh1">
+                                    Морковный фреш
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#fresh_grapfruit" role="button" aria-expanded="false" aria-controls="fresh1">
+                                    Грейпфрутовый фреш
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#fresh_svekla" role="button" aria-expanded="false" aria-controls="fresh1">
+                                    Свекольный фреш с яблоком и морковью
+                                </a>
+                            </p>
+                            <div class="collapse" id="fresh_apelsin">
+                                <div class="card card-body">
+                                    200мл/330мл...................................170р/230р
+                                </div>
+                            </div>
+                            <div class="collapse" id="fresh_morkov">
+                                <div class="card card-body">
+                                    200мл/330мл с оливковым маслом или сливками...................................170р/230р
+                                </div>
+                            </div>
+                            <div class="collapse" id="fresh_grapfruit">
+                                <div class="card card-body">
+                                    200мл/330мл...................................225р/250р
+                                </div>
+                            </div>
+                            <div class="collapse" id="fresh_svekla">
+                                <div class="card card-body">
+                                    200мл/330мл...................................190р/250р
+                                </div>
+                            </div>
+                            <p>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#fresh_apple" role="button" aria-expanded="false" aria-controls="fresh1">
+                                    Яблочный фреш
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#fresh_selderey" role="button" aria-expanded="false" aria-controls="fresh1">
+                                    Огуречный фреш с сельдереем
+                                </a>
+                                <a class="btn button__text_blue" data-toggle="collapse" href="#fresh_tomato" role="button" aria-expanded="false" aria-controls="fresh1">
+                                    Томатный фреш с сельдереем
+                                </a>
+                                <a class="btn button__text_peach" data-toggle="collapse" href="#fresh_miks" role="button" aria-expanded="false" aria-controls="fresh1">
+                                    Замиксуйте сами себе вкус фреша
+                                </a>
+                            </p>
+                            <div class="collapse" id="fresh_apple">
+                                <div class="card card-body">
+                                    200мл/330мл...................................170р/230р
+                                </div>
+                            </div>
+                            <div class="collapse" id="fresh_selderey">
+                                <div class="card card-body">
+                                    200мл/330мл...................................220р/250р
+                                </div>
+                            </div>
+                            <div class="collapse" id="fresh_tomato">
+                                <div class="card card-body">
+                                    200мл/330мл...................................220р/250р
+                                </div>
+                            </div>
+                            <div class="collapse" id="fresh_miks">
+                                <div class="card card-body">
+                                    200мл/330мл апельсин, киви, груша, банан, грейпфрут,мандарин, томат, свекла, морковь...................................200р/300р
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
